@@ -1,0 +1,5 @@
+{
+  "name": "Evidence Packet Builder",
+  "description": "A guided wizard to construct an 'Evidence of Excellence' packet for interviews, featuring AI-powered critique and feedback.",
+  "requestFramePermissions": []
+}
