@@ -49,25 +49,6 @@ export const TitleSlide: React.FC<TitleSlideProps> = ({ onStart }) => {
                     </div>
                 </div>
 
-                {/* Photo Side (Passport Style) */}
-                <div className="shrink-0 relative group">
-                    <div className="w-48 h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 bg-gray-200 border-4 border-black shadow-[8px_8px_0px_0px_black] overflow-hidden relative rotate-2 group-hover:rotate-0 transition-transform duration-300">
-                         <img 
-                            src="https://i.ibb.co/BHJS08HJ/PHOTO-2025-11-05-01-09-02.jpg" 
-                            alt="Haneesh Kapa" 
-                            className="w-full h-full object-cover"
-                         />
-                         {/* "Passphoto" corner tape or stamp */}
-                         <div className="absolute top-0 right-0 bg-[#FF5F56] text-white text-[10px] font-bold px-2 py-1 border-b-2 border-l-2 border-black font-steps z-10">
-                            ID_VERIFIED
-                         </div>
-                         {/* Scanlines overlay */}
-                         <div className="absolute inset-0 bg-[linear-gradient(rgba(0,0,0,0.1)_1px,transparent_1px)] bg-[size:100%_4px] pointer-events-none"></div>
-                    </div>
-                    {/* Decorative 'staple' */}
-                    <div className="absolute -top-3 left-1/2 -translate-x-1/2 w-8 h-3 border-t-2 border-l-2 border-r-2 border-gray-400 rounded-t-sm"></div>
-                </div>
-
             </div>
 
             {/* Bottom Info */}
